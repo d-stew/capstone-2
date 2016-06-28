@@ -1,0 +1,44 @@
+body {
+ background-color: rgb(66, 66, 66);
+ color: white;
+}
+
+#trump #sanders {
+  float: right;
+  width: 110% !important;
+  height: 110% !important;
+}
+
+.name {
+  font-weight:bold;
+  font-size: 26px;
+  margin: auto;
+}
+
+.img {
+  width: 150%;
+  height: 150%;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+
+/*D3 MAP*/
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-opacity: .5;
+  stroke-width: .5px;
+}
+
+.land, .country {
+  fill: #222;
+  fill: #d3d3d3;
+}
+
+.boundary {
+  fill: none;
+  stroke: #222;
+  stroke: #fff;
+  stroke-width: .5px;
+}
